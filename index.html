@@ -18,14 +18,39 @@
       justify-content: center;
       min-height: 100%;
     }
+    .wrap {
+      text-align: center;
+    }
     h1 {
       font-size: clamp(2rem, 8vw, 3rem);
       font-weight: 600;
       letter-spacing: 0.02em;
+      margin-bottom: 2rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      justify-content: center;
+    }
+    nav a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    nav a:hover {
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <h1>Omoily</h1>
+  <div class="wrap">
+    <h1>Omoily</h1>
+    <nav aria-label="法務・ヘルプ">
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="help.html">ヘルプ</a>
+      <a href="terms.html">利用規約</a>
+    </nav>
+  </div>
 </body>
 </html>
