@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "MF6236MKFX.com.Andy.Omoily",
+        "paths": [
+          "/omoily-website/addfriend",
+          "/omoily-website/addfriend/*"
+        ]
+      }
+    ]
+  }
+}
